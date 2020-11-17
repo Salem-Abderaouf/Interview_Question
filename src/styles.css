@@ -1,0 +1,82 @@
+body{
+  font-family:'Inter' !important;
+}
+.Brand-Logo{
+  height:50px;
+  width:50px;
+}
+h4{
+  color:#000;
+}
+.log-in{
+ background-color:#fff;
+  border-radius:12px;
+  box-shadow:0 0 20px -5px #000;
+  min-width:320px;
+  max-width:580px;
+}
+.custome-button{
+  border-radius:12px;
+}
+.custome-input{
+  border-radius:12px;
+  padding: 1.375rem .75rem;
+  color: #000;
+}
+.link{
+  background-color:transparent;
+  border:none;
+  font-size:14px;
+  color:blue !important;
+}
+ul li{
+  float:right;
+  font-size:12px;
+  list-style-type: none;
+}
+#error-list{
+  float:left;
+  font-size:12px;
+}
+#select-box{
+  font-size:12px;
+  background-color:transparent;
+  border:none;
+  text-decoration:underline;
+  outline:none;
+}
+.toggler{
+  cursor:pointer;
+  color:navy;
+}
+/* Simple Dark Mode */
+.dark{
+  background-color:#121212;
+  transition:background-color .3s linear;
+}
+.dark .log-in{
+  background-color:#121212;
+}
+.dark h4{
+  color:#fff;
+}
+.dark ul li{
+  color:#fff;
+}
+.dark .toggler{
+  color:#fff;
+}
+.dark .modal-content{
+  background-color:#121212;
+  border-radius: 12px;
+}
+.dark .modal-header{
+  color:#fff;
+  border-bottom:none;
+}
+.dark .modal-footer{
+  border-top:none;
+}
+.dark .close{
+  color:#f30202;
+}
